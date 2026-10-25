@@ -219,3 +219,12 @@ async function interact() {
 ---
 
 *Built with Africa's Blockchain Club — scaffold your next project with `npx abc-scaffold`.*
+
+## How To Set Up teh Environment
+
+```bash
+ Run npx abc-scaffold
+  - Go to ALchemy infura : copy and [paste] the private keys
+  - use npx hardhat run <deployment-script-path> scripts/deploy.js (locally)
+  - use npx hardhat run <script> -network sepolia (deploy on sepolia)
+```
