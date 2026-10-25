@@ -38,11 +38,3 @@ main().catch((err) => {
   console.error(err);
   process.exitCode = 1;
 });
-
-/* Steps for the entire process:
-
-  - npx abc-scaffold
-  - Go to ALchemy infura : copy and [paste] the private keys
-  - use npx hardhat run <deployment-script-path> scripts/deploy.js (locally)
-  - use npx hardhat run <script> -network sepolia (deploy on sepolia)
-*/
